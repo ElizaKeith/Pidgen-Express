@@ -1,0 +1,24 @@
+body{font-family: 'Grenze Gotisch', serif;
+background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+img{
+   height: 190px;
+   width: 190px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.info-container{
+    background-color:rgb(221, 150, 194) ;
+padding: 10px;
+margin: 30px auto;
+box-shadow:rgba(128, 128, 128, 0.747);
+border-radius: 33px;
+max-width: 250px;
+opacity: 90%;
+}
