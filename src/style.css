@@ -55,3 +55,10 @@ font-size: 22px;
 .row{
 font-size: 45px;
 }
+.love{
+
+    height: 120px;
+        max-width: 120px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
