@@ -30,8 +30,9 @@ Carrier Pigeon Service for Letters
 
 <div>
     <form class="orderForm" >
+        
 <label for="weight"> Weight:</label>
-<input type="number" min="0" max="16" id="weight" weight="weight" required>
+<input type="text" id="weight" name="weight" required min="1" max="16" placeholder="Enter weight in oz">
  oz.<br  />
  
 <label for="drop-off">Choose Drop-off Location:</label>
@@ -57,7 +58,7 @@ Carrier Pigeon Service for Letters
 
 </div>
 <div class="container text-center">
-    <div class="row align-items-center">
+    <div class="row">
 
        <div class="col" id="standard">
             
@@ -79,12 +80,14 @@ Carrier Pigeon Service for Letters
         <img src="https://as2.ftcdn.net/v2/jpg/00/75/80/61/1000_F_75806177_gl415CGXPypUEjHhV37ln3Tb60MckcmG.jpg" alt="pigeon holding sealed letter" required>       
         <div> <strong>Secure Documents</strong> </div>
 </div>
-
+ <div class="col" class="love" id="love">
 <input type="radio" name="service" value="love" id="love" required>
-        <div class="col" class="love" id="love"></div>
-            <img src="https://as1.ftcdn.net/v2/jpg/00/76/00/30/1000_F_76003077_6xbQ3bZ89yw8vFY322tGawua0gyE7nk3.jpg"   alt="pigeon holding love letter with rose" required>
+       
+            <img src="https://as1.ftcdn.net/v2/jpg/00/76/00/30/1000_F_76003077_6xbQ3bZ89yw8vFY322tGawua0gyE7nk3.jpg"   alt="pigeon holding love letter with rose"  required>
              <div><strong>Love Letters</strong> </div>  
         </div>
+    </div>
+    
         <input class="orderBtn" class="btn btn-btn" id="btn" type="submit" value="Order Now">
        </form> 
     </div>

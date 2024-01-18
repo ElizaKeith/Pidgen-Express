@@ -1,5 +1,5 @@
 body{font-family: 'Grenze Gotisch', serif;
-background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+background: #4c9173;
 }
 
 h1{
@@ -20,10 +20,16 @@ img{
 }
 
 footer{
-    font: 9px;
+    padding: 40px;
+    font: 25px;
+    background-color: #906387;   
+}
+a {
+    color: #7dd87d;
+    text-decoration: none;
 }
 .info-container{
-    background-color:rgb(221, 150, 194) ;
+    background-color:#5b446a ;
 padding: 10px;
 margin: 30px auto;
 box-shadow:rgba(128, 128, 128, 0.747);
@@ -32,12 +38,13 @@ max-width: fit-content;
 opacity: 90%;
 text-align: center;
 font-size: 22px;
+font-weight: 600;
 }
 .orderForm{
     text-align: center;
     display: block;
     margin:0 auto;
-    font-size: 58px;
+    font-size: 38px;
 }
 
 .orderBtn{
@@ -48,17 +55,20 @@ font-size: 22px;
     text-align: center;
     border-radius: 80%;
     max-width: fit-content;
-    background-color: blue;
+    color: #000;
+    background-color:#7dd87d;
     font-size: 38px;
 }
 
-.row{
-font-size: 45px;
-}
-.love{
 
-    height: 120px;
-        max-width: 120px;
-        border-radius: 50%;
-        overflow: hidden;
-    }
+.orderBtn:hover{
+    background-color:#5b446a;
+    color: #fff;
+transition-duration: 200ms;
+}
+
+.row{
+font-size: 35px;
+display: block;
+margin:0 auto;}
+
